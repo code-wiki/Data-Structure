@@ -6,7 +6,7 @@ Data Structure Interview Question With Answers
 
 ### Table of Contents
 
-| No. | Questions                                                                                                                                                                         |
-| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|     | **Array**                                                                                                                                                                         |
-| 1   | [(Manacher's Algoritm) Longest Palindrome Substring?(#https://github.com/code-wiki/Data-Structure/blob/master/Array/(Manacher's%20Algoritm)Longest%20Palindromic%20Substring.py)] |
+| No. | Questions                                                                                                                                                                           |
+| --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     | **Array**                                                                                                                                                                           |
+| 1   | [(Manacher's Algoritm) Longest Palindrome Substring?](<#https://github.com/code-wiki/Data-Structure/blob/master/Array/(Manacher's%20Algoritm)Longest%20Palindromic%20Substring.py>) |
