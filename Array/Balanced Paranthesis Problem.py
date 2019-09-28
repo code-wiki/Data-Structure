@@ -12,9 +12,16 @@
 
 
 class Solution:
+    def __init__(self):
+        self.balancedParanthesisMsg = "Balanced Paranthesis"
+        self.nonBalancedParanthesisMsg = "Non Balanced Paranthesis"
+
     def checkBalancedParanthesis(self, str):
         paranthesisStack = []
         paranthesisStackIndex = -1
+
+        if (len(str) == 0 or str == ""):
+            return "Empty String Provided"
 
         for elem in str:
             if (elem == '{' or elem == '[' or elem == '('):
@@ -25,23 +32,24 @@ class Solution:
                 topStackElem = paranthesisStack[paranthesisStackIndex]
 
                 if (paranthesisStackIndex == -1):
-                    return False
+                    return self.balancedParanthesisMsg
                 if(topStackElem == '{' and (elem == ']' or elem == ')')):
-                    return False
+                    return self.balancedParanthesisMsg
                 if(topStackElem == '[' and (elem == '}' or elem == ')')):
-                    return False
+                    return self.balancedParanthesisMsg
                 if(topStackElem == '(' and (elem == ']' or elem == '}')):
-                    return False
+                    return self.balancedParanthesisMsg
                 else:
                     paranthesisStack.pop(paranthesisStackIndex)
                     paranthesisStackIndex = paranthesisStackIndex - 1
-        return True
+
+        if(paranthesisStackIndex == -1):
+            return "String Does Not Contain Paranthesis"
+        else:
+            return self.balancedParanthesisMsg
 
 
 if __name__ == "__main__":
     string = raw_input()
     result = Solution().checkBalancedParanthesis(string)
-    if (result):
-        print "Balanced Paranthesis"
-    else:
-        print "Not Balanced Paranthesis"
+    print result
