@@ -33,7 +33,9 @@ class Solution:
                 if(topStackElem == '(' and (elem == ']' or elem == '}')):
                     return False
                 else:
-                    return True
+                    paranthesisStack.pop(paranthesisStackIndex)
+                    paranthesisStackIndex = paranthesisStackIndex - 1
+        return True
 
 
 if __name__ == "__main__":
