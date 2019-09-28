@@ -11,3 +11,4 @@ Data Structure Interview Question With Answers
 |     | **Array**                                                                                                                                                                          |
 | 1   | [(Manacher's Algoritm) Longest Palindrome Substring?](<https://github.com/code-wiki/Data-Structure/blob/master/Array/(Manacher's%20Algoritm)Longest%20Palindromic%20Substring.py>) |
 | 2   | [ Longest Substring Without Repeating Characters?](https://github.com/code-wiki/Data-Structure/blob/master/Array/longest%20substring%20without%20repeating%20characters.py)        |
+| 3   | [ Balanced Paranthesis Problem?](https://github.com/code-wiki/Data-Structure/blob/master/Array/Balanced%20Paranthesis%20Problem.py)                                                |
