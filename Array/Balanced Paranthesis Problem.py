@@ -15,6 +15,7 @@ class Solution:
     def __init__(self):
         self.balancedParanthesisMsg = "Balanced Paranthesis"
         self.nonBalancedParanthesisMsg = "Non Balanced Paranthesis"
+        self.stringContainsParanthesis = False
 
     def checkBalancedParanthesis(self, str):
         paranthesisStack = []
@@ -25,10 +26,12 @@ class Solution:
 
         for elem in str:
             if (elem == '{' or elem == '[' or elem == '('):
+                self.stringContainsParanthesis = True
                 paranthesisStack.append(elem)
                 paranthesisStackIndex += 1
 
             elif (elem == '}' or elem == ']' or elem == ')'):
+                self.stringContainsParanthesis = True
                 topStackElem = paranthesisStack[paranthesisStackIndex]
 
                 if (paranthesisStackIndex == -1):
@@ -43,7 +46,7 @@ class Solution:
                     paranthesisStack.pop(paranthesisStackIndex)
                     paranthesisStackIndex = paranthesisStackIndex - 1
 
-        if(paranthesisStackIndex == -1):
+        if(self.stringContainsParanthesis == False):
             return "String Does Not Contain Paranthesis"
         else:
             return self.balancedParanthesisMsg
