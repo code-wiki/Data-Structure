@@ -12,3 +12,5 @@ Data Structure Interview Question With Answers
 | 1   | [(Manacher's Algoritm) Longest Palindrome Substring?](<https://github.com/code-wiki/Data-Structure/blob/master/Array/(Manacher's%20Algoritm)Longest%20Palindromic%20Substring.py>) |
 | 2   | [ Longest Substring Without Repeating Characters?](https://github.com/code-wiki/Data-Structure/blob/master/Array/longest%20substring%20without%20repeating%20characters.py)        |
 | 3   | [ Balanced Paranthesis Problem?](https://github.com/code-wiki/Data-Structure/blob/master/Array/Balanced%20Paranthesis%20Problem.py)                                                |
+| 4   | [ First and last Indices Problem?](https://github.com/code-wiki/Data-Structure/blob/master/Array/First%20and%20Last%20Indices.py)                                                  |
+| 5   | [ Reverse Linked List Problem?](https://github.com/code-wiki/Data-Structure/blob/master/Linked%20List/Reverse%20a%20Linked%20List.py)                                              |
