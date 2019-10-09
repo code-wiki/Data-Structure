@@ -14,3 +14,7 @@ Data Structure Interview Question With Answers
 | 3   | [ Balanced Paranthesis Problem?](https://github.com/code-wiki/Data-Structure/blob/master/Array/Balanced%20Paranthesis%20Problem.py)                                                |
 | 4   | [ First and last Indices Problem?](https://github.com/code-wiki/Data-Structure/blob/master/Array/First%20and%20Last%20Indices.py)                                                  |
 | 5   | [ Reverse Linked List Problem?](https://github.com/code-wiki/Data-Structure/blob/master/Linked%20List/Reverse%20a%20Linked%20List.py)                                              |
+| 6   | [ Bubble Sort Algoritm?](https://github.com/code-wiki/Data-Structure/blob/master/Array/Sorting/Bubble%20Sort.py)                                                                   |
+| 7   | [ Selection Sort Algoritm?](https://github.com/code-wiki/Data-Structure/blob/master/Array/Sorting/Selection%20Sort.py)                                                             |
+| 8   | [ Insertion Sort Algoritm?](https://github.com/code-wiki/Data-Structure/blob/master/Array/Sorting/Insertion%20Sort.py)                                                             |
+| 9   | [ Quick Sort Algoritm?](https://github.com/code-wiki/Data-Structure/blob/master/Linked%20List/Reverse%20a%20Linked%20List.py)                                                         |
