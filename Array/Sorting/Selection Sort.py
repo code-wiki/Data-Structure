@@ -4,10 +4,18 @@ class Solution:
         arrayLength = len(arr)
 
         for i in range(arrayLength):
-            for j in range(arrayLength-1):
+            minimumIndex = i
+            for j in range(i+1, arrayLength - 1):
+                if (arr[j] < arr[minimumIndex]):
+                    minimumIndex = j
+            temp = arr[minimumIndex]
+            arr[minimumIndex] = arr[i]
+            arr[i] = temp
+
+        return arr
 
 
 if __name__ == "__main__":
     unsortedArray = [64, 34, 25, 12, 22, 11, 90]
     print("The sorted array is")
-    print(Solution().bubbleSort(unsortedArray))
+    print(Solution().selectionSort(unsortedArray))
